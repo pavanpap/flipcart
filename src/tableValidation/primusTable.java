@@ -21,6 +21,7 @@ public class primusTable {
 		table=driver.findElement(By.id("DGBanker"));
 		List<WebElement> rows=table.findElements(By.tagName("tr"));
 		System.out.println(rows.size()-2);
+		System.out.println("Hello");
 		
 	}
 
